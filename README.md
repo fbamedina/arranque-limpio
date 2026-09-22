@@ -1,5 +1,7 @@
 # Arranque Limpio
 
+**Español** · [English](README.en.md)
+
 App de barra de menús para macOS que indica:
 
 1. **Si el Mac ha terminado de arrancar** y ningún servicio del sistema da problemas
