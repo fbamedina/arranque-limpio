@@ -8,6 +8,21 @@ App de barra de menús para macOS que indica:
    (Siri, Time Machine, Spotlight, iCloud, Fotos, XProtect, actualizaciones, WindowServer, Dock/Finder…).
 2. **Qué procesos o apps consumen CPU o memoria de forma exagerada**, con opción de cerrarlos.
 
+## Descargar
+
+**[⬇ Descargar la última versión](https://github.com/fbamedina/arranque-limpio/releases/latest)**
+(binario universal para Apple Silicon e Intel, macOS 14 o posterior).
+
+Descomprime el zip y mueve **Arranque Limpio.app** a *Aplicaciones*. La app no está notarizada por
+Apple: la primera vez que la abras, macOS la bloqueará. Ve a *Ajustes del Sistema → Privacidad y
+seguridad* y pulsa **Abrir igualmente** (solo hace falta una vez), o ejecuta en Terminal:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/Arranque Limpio.app"
+```
+
+También puedes [compilarla tú mismo](#compilar-e-instalar).
+
 ## Icono en la barra de menús
 
 Es el mismo símbolo que el de la app (botón de encendido) con un pequeño distintivo:

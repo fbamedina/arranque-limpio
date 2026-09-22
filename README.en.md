@@ -10,6 +10,21 @@ A macOS menu bar app that tells you:
 
 > The app's interface is in Spanish. Interface labels are quoted below in Spanish with their English meaning.
 
+## Download
+
+**[⬇ Download the latest release](https://github.com/fbamedina/arranque-limpio/releases/latest)**
+(universal binary for Apple Silicon and Intel, macOS 14 or later).
+
+Unzip it and move **Arranque Limpio.app** to *Applications*. The app is not notarized by Apple, so
+macOS will block it the first time you open it. Go to *System Settings → Privacy & Security* and click
+**Open Anyway** (only needed once), or run in Terminal:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/Arranque Limpio.app"
+```
+
+You can also [build it yourself](#build-and-install).
+
 ## Menu bar icon
 
 It uses the same symbol as the app icon (a power button) with a small badge:
